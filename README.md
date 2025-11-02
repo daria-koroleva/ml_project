@@ -29,6 +29,7 @@
     - test.csv
     
 ## Models
-- **Model 1 (Baseline):**  TF-IDF + Logistic Regression.
+- **Model 1 (Baseline):**  TF-IDF (bag-of words and tokenization) + Logistic Regression.
+run logistic_regression.ipynb to obtain all scores.
 - **Model 2 (Transformer):** DistilBERT.
 
