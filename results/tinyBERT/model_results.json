@@ -1,0 +1,25 @@
+{
+  "model_info": {
+    "model_name": "huawei-noah/TinyBERT_General_4L_312D",
+    "architecture": "DistilBERT for sequence classification",
+    "num_parameters": 19030250,
+    "max_length": 128,
+    "training_date": "2025-12-06T20:24:21.277215"
+  },
+  "dataset_info": {
+    "train_size": 57325,
+    "val_size": 12284,
+    "test_size": 12284,
+    "class_distribution": {
+      "legitimate": 27484,
+      "phishing": 29841
+    }
+  },
+  "performance_metrics": {
+    "test_accuracy": 0.9606805600781504,
+    "test_precision": 0.9619278248039572,
+    "test_recall": 0.9606805600781504,
+    "test_f1_score": 0.960696264800093,
+    "test_pr_auc": 0.9923346705447709
+  }
+}

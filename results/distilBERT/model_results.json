@@ -1,0 +1,25 @@
+{
+  "model_info": {
+    "model_name": "distilbert-base-uncased",
+    "architecture": "DistilBERT for sequence classification",
+    "num_parameters": 66955010,
+    "max_length": 256,
+    "training_date": "2025-12-06T23:15:01.857335"
+  },
+  "dataset_info": {
+    "train_size": 57325,
+    "val_size": 12284,
+    "test_size": 12284,
+    "class_distribution": {
+      "legitimate": 27484,
+      "phishing": 29841
+    }
+  },
+  "performance_metrics": {
+    "test_accuracy": 0.5205144903940084,
+    "test_precision": 0.2709353347101343,
+    "test_recall": 0.5205144903940084,
+    "test_f1_score": 0.3563732360616008,
+    "test_pr_auc": 0.520342201896951
+  }
+}
