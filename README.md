@@ -100,7 +100,7 @@ This notebook performs:
 
 ---
 
-### **2. Transformer Model — TinyBERT**
+### **2. Transformer Model: TinyBERT**
 
 Fine-tuned using Hugging Face Transformers.
 
@@ -117,7 +117,7 @@ Fine-tuned using Hugging Face Transformers.
 Run:
 
 ```
-tinyBERT_explainable.ipynb
+TinyBERT_explainable.ipynb
 ```
 
 Outputs:
@@ -195,7 +195,7 @@ See full methodology in the attached report ****.
 5. Run TinyBERT Transformer
 
    ```bash
-   jupyter notebook tinyBERT_explainable.ipynb
+   jupyter notebook TinyBERT_explainable.ipynb
    ```
 
 All results will be stored under:
