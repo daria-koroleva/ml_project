@@ -1,6 +1,6 @@
 # **📧 Phishing Email Detector**
 
-**Course:** COMP 6321 — Machine Learning
+**Course:** COMP 6321: Machine Learning
 **Team Members:**
 
 * **Hadi El Nawfal**
@@ -52,7 +52,7 @@ This script:
 | **Validation** | 35% (41,702 emails) |
 | **Test**       | 35% (41,702 emails) |
 
-Generated files placed in `/data/preprocessing/`:
+Generated files placed in `/data`:
 
 * `train.csv`
 * `val.csv`
@@ -179,23 +179,20 @@ See full methodology in the attached report ****.
 
    ```bash
    pip install -r requirements.txt
-   ```
-
-3. **Download dataset → place in** `/data/raw/`
-
-4. Run preprocessing
+   ````
+3. Run preprocessing
 
    ```bash
    jupyter notebook data_preprocessing_new.ipynb
    ```
 
-5. Run traditional models
+4. Run traditional models
 
    ```bash
    jupyter notebook traditional_models.ipynb
    ```
 
-6. Run TinyBERT fine-tuning
+5. Run TinyBERT Transformer
 
    ```bash
    jupyter notebook tinyBERT_explainable.ipynb
