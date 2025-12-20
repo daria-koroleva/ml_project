@@ -207,7 +207,6 @@ All results will be stored under:
 
 ---
 
-## **📘 Reference**
+## **📘 Project Report**
 
-Full report: ****
-Dataset: [https://huggingface.co/datasets/renemel/compiled-phishing-dataset](https://huggingface.co/datasets/renemel/compiled-phishing-dataset)
+📄 [Download the full project report (PDF)](Phishing_Email_Detection__Comparing_Traditional_Machine_Learning_Models_and_a_Transformer_Model.pdf)
